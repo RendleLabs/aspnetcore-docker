@@ -1,4 +1,4 @@
-FROM rendlelabs/aspnetcore
+FROM rendlelabs/aspnetcore:1.0.1
 
 VOLUME /app
 
