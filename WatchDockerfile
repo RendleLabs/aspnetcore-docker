@@ -1,0 +1,8 @@
+FROM local/aspnetcore
+
+VOLUME /app
+
+WORKDIR /app
+
+CMD dotnet restore && dotnet watch run --server.urls http://*:5000
+
